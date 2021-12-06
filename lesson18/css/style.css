@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+}
+.planned{
+    width: 882px;
+    height: 100vh;
+    padding: 20px;
+   
+}
+.progress{
+    width: 882px;
+    height: 100vh;
+    border-right: 1px rgb(99, 99, 99) solid;
+    border-left: 1px  rgb(99, 99, 99) solid;
+    padding: 20px;
+
+}
+.Completed{
+    width: 882px;
+    height: 100vh;
+    padding: 20px;
+}
+.job{
+    width:882 ;
+    display: flex;
+    flex-direction: column;
+}
+.two{
+    position: relative;
+    left:-20px;
+    border: 3px white solid;
+}
+.one{
+    border: 3px white solid;
+}
+.three{
+    position: relative;
+    left:-40px;
+    border: 3px white solid;
+}
+.room{
+  position: absolute;  
+  left: 450px;
+  top: 20px;
+}
+.trash{
+    position: absolute;
+    right: 200px;
+}

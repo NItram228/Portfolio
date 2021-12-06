@@ -1,0 +1,45 @@
+.head{
+    color: blue;
+}
+h1{
+    width:50%;
+    margin: 25px auto;
+}
+ table{
+    /* padding: 5px 3px 5px 3px; */
+    /* width:300px; */
+    /* height:500px; */
+    /* border: 3px double black; */
+}
+h2{
+    margin:0px;
+    font-size:20px;
+}
+p{
+    margin: 0px;
+}
+.tg{
+    /* padding: 5px 3px; */
+}
+.th{
+
+}
+hr{
+    margin:0px 0px;
+}
+.border{
+    padding: 5px 3px 5px 3px;
+    width:300px;
+    height:500px;
+    border:3px double black;
+    box-shadow: 0 2px 15px 1px rgba(o, 0, 0, 0.8);
+    background-color: sandybrown;
+}
+.main-left, .main-right{
+    box-shadow: 0 2px 15px 1px rgba(o, 0, 0, 0.8);
+}
+hr{
+    height: 2px;
+    /* border: 0; */
+    color: tomato;
+}

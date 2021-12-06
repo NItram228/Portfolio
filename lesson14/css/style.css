@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.header{
+    width: 800px;
+    
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.pink-square{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 10px;
+    border: 1px rgb(252, 155, 171) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.white-square{
+    width: 190px;
+    height: 190px;
+    background-color: rgb(207, 10, 43);
+}
+@media (max-width:500px){
+    .header{
+        width: 400PX;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pink-square{
+        background-color: red;
+        border-radius: 50%;
+    }
+    .white-square{
+        width: 100px;
+        height:100px ;
+        border-radius: 50%;
+        background-color: white;
+    }
+}

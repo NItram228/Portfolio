@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(98, 199, 165);
+    
+    display: flex; 
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: rgb(250, 190, 190);
+    font-size: 40px;
+    font-family: 'Montagu Slab', serif;
+}
+.subtitle{
+    color: rgb(250, 190, 190);
+    font-size: 25px;
+    font-family: 'Montagu Slab', serif;
+}
+.center{
+    width: 100%; 
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.sprint-1-beginning{
+    width: 1000px;
+    height: 350px;
+    background-color: lightblue;
+    margin: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+}
+.sprint-2-beginning{
+    width: 1000px;
+    height: 350px;
+    background-color: lightblue;
+    margin: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(98, 199, 165);
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    background-image: url(./../style/logo.png);
+    background-size:contain;
+    background-position: center;
+
+    position: absolute;
+    top: 30px;
+    right: 500px;
+
+    border-radius: 100%;
+    border: 2px rgb(10, 149, 196) solid;
+}
+.sprint-1{
+    width: 1000px;
+    height: 400px;
+    
+    display: flex;
+   flex-wrap: wrap;
+   
+    align-items: center;
+   
+}
+.sprint-1-lesson{
+    width: 250px;
+    height: 90px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+    
+    background-color: white; 
+    transition: 0.5s;
+}
+.sprint-1-lesson:hover{
+    width: 252px;
+    height: 92px;
+    border: 1px black solid;
+}
+.button{
+    text-decoration: none;
+    border: 1px rgb(36, 252, 252) solid;
+    padding: 3px;
+    position: relative;
+    left: 10px;
+    transition: 0.5s;
+}
+.button:hover{
+    border: 1px rgb(252, 43, 36) solid;
+    padding: 4px;
+}
+.lesson-title{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Varela Round', sans-serif;
+}
+hr{
+    margin: 10px 5px;
+}
+.sprint-2{
+    width: 1000px;
+    height: 400px;
+    
+    display: flex;
+   flex-wrap: wrap;
+   
+    align-items: center;
+}
+.sprint-2-lesson{
+    width: 250px;
+    height: 90px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+    
+    background-color: white;
+    transition: 0.5s;
+}
+.sprint-2-lesson:hover{
+    width: 252px;
+    height: 92px;
+    border: 1px black solid;
+}
+h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+.telegram{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 200px;
+    top: 800px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.white-circle{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    color: black;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.telegram:hover{
+    transform: scale(1.3);
+    font-family: 'Gochi Hand', cursive;
+}

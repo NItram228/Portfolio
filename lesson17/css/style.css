@@ -1,0 +1,91 @@
+.reviews{
+    font-size: 15px;
+    color: gray;
+    position: relative;
+    left: 140px;
+}
+img{
+ 
+    height: 220px;
+}
+.container{
+    margin-top: 20px;
+}
+.card{
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    transition:0.8s;
+}
+.card:hover{
+    width: 310px;
+    padding: 15px;
+}
+.purple-square1{
+    color:white;
+    background-color: purple;
+    padding: 3px 10px ;
+    font-size: 15px; 
+    position: absolute;
+    left: 240px;
+    border-radius: 4px;
+}
+.purple-square2{
+    color:white;
+    background-color: purple;
+    padding: 3px 10px;
+    font-size: 15px;
+    position: absolute;
+    left: 230px;
+    border-radius: 4px;
+}
+.purple-square3{
+    color:white;
+    background-color: purple;
+    padding: 3px 10px;
+    font-size: 15px;
+    position: absolute; 
+    left: 215px;
+    border-radius: 4px;
+}
+.purple-square4{
+    color:white;
+    background-color: purple;
+    padding: 3px 10px;
+    font-size: 15px;
+    position: absolute;
+    left: 250px;
+    border-radius: 4px;
+}
+.heart{
+    width: 10px;
+    height: 10px;
+    transition: 2s;
+}
+.heart:hover{
+ color: red;
+
+}
+.question{
+    width: 10px;
+    height: 10px;
+}
+.telefon{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffc107;
+    color: #644b00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+.telefon:hover{
+    width: 60px;
+    height: 60px;
+}
+
+

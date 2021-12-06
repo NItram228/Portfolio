@@ -1,0 +1,64 @@
+.parent-head{
+    width:50%;
+    margin:0 auto;
+    height:600px;
+    
+
+}
+.head-blue{
+    width:100%;
+    height:200px;
+    background-color: blue;
+}
+.head-red{
+    width:100%;
+    height:200px;
+    background-color: red;
+}
+.head-chartreuse{
+    width:100%;
+    height:200px;
+    background-color: chartreuse;
+}
+.blue{
+    margin: 0;
+}
+.red{
+    margin: 0;
+}
+.chartreuse{
+    margin: 0;
+}
+.head-1{
+ display: inline-block;
+ width: 200px ;
+ height:80px;
+ margin:0;
+}
+.black{
+    
+    background-color: black;
+}
+.orange{
+
+    background-color: orange;
+}
+
+.pink{
+    background-color: pink;
+}
+.subparent{
+    width:609px;
+    height:600px;
+    margin:0 auto;
+    background-color: royalblue;
+}
+.df{
+    width:100%;
+    height:20px ;
+}
+.Gray{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+}

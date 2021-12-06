@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+}
+li{
+  margin: 0;
+}
+ul{
+  margin: 0%;
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+  /* display: flex; */
+
+  background-image: url(./../style/header/header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header-title{
+  color: rgb(247, 162, 4);
+  font-size: 40px;
+}
+.header-subtitle{
+  color: rgb(247, 162, 4);
+  margin: 0;
+  font-size: 30px;
+}
+.header-content{
+width: 50%;
+height: 100px;
+text-align: center;
+}
+.startup{
+  color: aquamarine;
+  font-size: 50px;
+}
+.right-div{
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.right{
+  color: blue;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.center-div{
+  height: 100%;
+  height: 500px;
+  display: flex; 
+  flex-direction: column;
+  
+ justify-content: center;
+ align-items: center;
+}
+.button{
+  text-decoration: none;
+  border: 50px black;
+  padding: 15px;
+  font-size: 25px;
+  border: 2px black solid;
+  padding: 5px;
+  background-color: rgb(10, 175, 240);
+  border-radius: 15px;
+  margin: 20px auto;
+}
+.portfolio{
+  width: 100%;
+  height: 600px;
+  
+}
+.text{
+height: 100px;
+width: 50%;
+
+margin: 0 auto;
+text-align: center;
+}
+.picture-clean-typograph, .picture-rock-solid-code, .pictue-expert-support{
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  border-radius: 50%;
+  margin: 0 auto;
+  
+}
+.blok{
+  list-style: none;
+  width: 1500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+.pict{
+ text-decoration: none;
+ color: black;
+}
+.text-1{
+ margin: 0% auto;
+ text-align: center;
+}
+.work-clean-typograph, .work-rock-solid-code, .work-expert-support{
+  padding: 20px;
+}
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: red ;
+ text-align: center;
+}
+.krug{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 10px;
+  align-items: center;
+}
+.king0-krug{
+  width: 50%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+

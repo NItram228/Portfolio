@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(121, 155, 218);
+}
+.card{
+    width:600px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+img{
+    display: block;
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+    border-radius:50%;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
+h2{
+    font-size:18px;
+    color: blue;
+}
+.on{
+    text-decoration: none;
+    color: rgb(21, 255, 0);
+}
+.to{
+    text-decoration: none;
+    color: rgb(140, 0, 255);
+}
+.mo{
+    text-decoration: none;
+    color: rgb(255, 13, 5);
+}

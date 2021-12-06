@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: coral;
+}
+h1{
+    font-size: 60px;
+   color: darkblue;
+   font-family: 'Hammersmith One', sans-serif;
+}
+ul{
+    list-style-type: square;
+    /* text-align: center; */
+}
+div {
+    
+    background-color: coral;
+    width: 50%;
+    margin:0 auto;
+  /*  height: 100vh;*/
+
+}
+
+.one{
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+    font-family: 'Grechen Fuemen', cursive;
+}
+.two{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-family: 'Grechen Fuemen', cursive;
+}
+.three{
+    text-decoration: none;
+    color: rgb(94, 255, 0);
+    font-size: 30px;
+    font-family: 'Grechen Fuemen', cursive;
+}
+img{
+    width: 200px;
+    height:200px;
+    text-align: center;
+    border-radius:50%;
+}

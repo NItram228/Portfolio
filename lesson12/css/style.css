@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+.registration-menu{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./../style/registration-menu.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Contact{
+    width: 350px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 100px;
+    left: 450px;
+   border-radius: 20px 0px 0px 20px;
+   display: flex;
+
+   justify-content: center;
+   align-items: baseline;
+
+}
+.content-menu{
+    width: 250px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   margin: 0; 
+}
+.circle{
+    width: 40px;
+    height: 40px;
+   
+    border-radius: 50%;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.links{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+  
+    /* margin: 0px 0px 0px 20px; */
+}
+.hello-user{
+    width: 350px;
+    height: 550px;
+    background-color: #00BF5D;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.input-field{
+    width: 250px;
+    text-align: center;
+}
+.taxt-message{
+    width: 200px;
+    position: relative;
+    /* left: -40px; */
+}
+.text{
+ width: 200px; 
+ height: 25px;
+ background-color: rgb(207, 204, 204);
+ margin: 0 0 10px;
+ border: none;
+}
+.tel{
+    width: 200px; 
+    height: 25px;
+    background-color: rgb(207, 204, 204);
+    margin: 0 0 10px;
+    border: none;
+}
+.my-contact{
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;
+    background-color:#00BF5D;
+    border-radius: 15px;
+    margin: 50px auto;
+}
+.title{
+    margin: 20px 0 40px;
+}
+.teaxt{
+    margin: 20px 0 30px;
+}
+.textarean{
+    width: 200px; 
+}
+.need-help{
+    text-decoration:none;
+    border-bottom: 1px dashed black;
+    color: black;
+    margin: 15px 0 0;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+.teaxt-user{
+    color: white;
+    margin: 0;
+}
+.input-user{
+    width: 50px;
+    background-color: #00BF5D;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+.text:hover{
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.1);
+}
+.tel:hover{
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.1);
+}
+.input-user:hover{
+    transform: scale(1.2);
+}
+.need-help:hover{
+    transform: scale(1.02);
+    color: forestgreen;
+}
