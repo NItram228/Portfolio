@@ -14,6 +14,7 @@ border-bottom: 1px grey solid;
 .information{
  text-decoration: none;
  color: grey;
+ 
  font-size: 18px;
 }
 .neame{
@@ -49,7 +50,10 @@ transform: rotate(-90deg);
 .picture{
 width: 944px;
 height: 385px;
-margin: 30px auto 0;
+margin: 30px auto 0; 
+background-image: url(./../img/header/BSPP2266.png);
+/* background-size: cover;
+background-position: center; */
 }
 .center{
     margin: 104px 0 0;  
@@ -57,16 +61,17 @@ margin: 30px auto 0;
 .about-me{
 width: 100%;
 height: 504px;
-background-color: rgb(218, 218, 218);
+
+background-color: #F6F6F6;
 
 display: flex;
-align-items: center;
 justify-content: center;
 
 }
 .blok-teaxt{
-    width: 485px;
+    width: 486px;
     height: 260px;
+    margin-top: 80px;
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -74,6 +79,21 @@ justify-content: center;
 .title{
     font-size: 34px;
     margin: 5px 0 10px;
+}
+.title-1{
+    font-size: 34px;
+    margin: 5px 0 0;
+}
+.teaxt-1{
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+.paragraph{
+    margin-top: 50px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
 }
 .teaxt{
     font-size: 18px;
@@ -85,7 +105,7 @@ justify-content: center;
     margin: 90px auto 0;
 
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     
 }
@@ -99,11 +119,247 @@ justify-content: center;
 }
  .portfolio{
     width: 936px;
-    height: 206px;
-    background-color: grey;
+   
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
 }
 .card{
-    background-color: hotpink;
-    width: 106px;
+    
+    width: 166px;
     height: 205px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: relative;
 } 
+.photoshop{
+   width: 90px ;
+    height:89px ;
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+.Illustrator{
+    width: 90px ;
+    height:89px ;
+    background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+}
+.After-Effects{
+    width: 90px ;
+    height:89px ;
+    background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+}
+.Figma{
+    width: 90px ;
+    height:89px ;
+}
+.red{
+    width: 29px;
+    height: 29px;
+    background: #F24E1E;
+    border-radius: 50% 0 0 50%;
+
+    position: relative;
+    right: -16px;
+}
+.pink{
+    width: 29px;
+    height: 29px;
+    background: #FF7262;
+    border-radius:0 50% 50% 0;
+
+    position: relative;
+    top: -29px ;
+    right: -45px;
+}
+.purple{
+    width: 29px;
+    height: 29px;
+    background: #A259FF;
+    border-radius: 50% 0 0 50%;
+
+    position: relative;
+    top: -29px ;
+    right: -16px;
+}
+.blue{
+    width: 29px;
+    height: 29px;
+    background:  #1ABCFE;
+    border-radius: 50%;
+
+    position: relative;
+    top: -58px ;
+    right: -45px;
+}
+.green{
+    width: 29px;
+    height: 29px;
+    background: #0ACF83;
+    border-radius: 50% 0 50% 50%;
+
+    position: relative;
+    top: -58px ;
+    right: -16px;
+}
+.teaxt-photoshop{
+    margin-top: 20px;
+    text-indent: 12px;
+    color: #828282;
+    text-decoration: none;
+}
+.teaxt-figma{
+    
+    margin-top: 20px;
+    text-indent:-5px;
+    color: #828282;
+    text-decoration: none;
+}
+.teaxt-Illustrator{
+    margin-top: 20px;
+    text-indent: 9px;
+    color: #828282;
+    text-decoration: none;
+}
+.teaxt-After-Effects{
+    margin-top: 20px;
+    text-indent: 20px;
+    color: #828282;
+    text-decoration: none;
+}
+.star{
+    position: absolute;
+    bottom: 0;
+}
+.footer-teaxt{
+    font-size: 18px;
+    margin: 2px 0 0;
+}
+.contact{
+    width: 275px;
+    height: 212px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.footer-title{
+    font-size: 34px;
+    margin: 5px 0 20px;
+}
+.button{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 29px ;
+    border-radius: 20px;
+    margin: 60px 0 0;
+    
+}
+.links{
+    width: 342px;
+    height: 40px;
+    margin: 52px auto 0;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer{
+    margin-top:69px;
+}
+.vector{
+    position: absolute;
+}
+.N{
+    position: relative;
+    bottom: -14px ;
+}
+.I{
+    position: relative;
+    bottom: -14px ;
+}
+.O{
+    position: relative;
+    right: -9px; 
+}
+.B{
+    position: relative;
+    bottom: -12px ;
+    right: -8px;
+}
+.E{
+    position: relative;
+    bottom: -12px ;
+    right:  10px;
+} 
+.line{
+    position: relative;
+    right:  -6px;
+    top: -2px;  
+}
+.footer-like{
+    height: 34px;
+    width: 243px;
+    margin: 44px auto 92px;
+    font-size: 14px;
+    color: #828282;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-teaxt-bottom{
+    margin: 2px 0 0;
+}
+@media (max-width: 950px){
+    .denis{
+        width: 320px;
+        height: 174px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+     }
+     .picture{
+         width: 316px;
+         height: 478px;
+         background-image: url(./../img/header/Frame\ 2.1.png);
+     }
+     .about-me{
+        height: 492px;
+
+        background-color: #F6F6F6;
+        
+        display: flex;
+        justify-content: center;
+     }
+     .skills{
+        width: 228px;
+        height: 1240px;
+        margin: 90px auto 0;
+    
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+     }
+     .portfolio{
+        width: 166px;
+        height: 1068px;
+        margin-top: 82px;
+        display: flex;
+       flex-direction: column;
+     }
+     .footer{
+         margin-top: 50px;
+     }
+     .nav{
+         width: 100%;
+     }
+     .card{
+         margin-top: 82px;
+     }
+     
+}
+
+
