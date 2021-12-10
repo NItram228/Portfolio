@@ -1,26 +1,37 @@
 body{
     margin: 0;
 }
-.nav{
-width: 946px;
-height: 55px;
-margin: 22px auto 0;
+a{
+    text-decoration: none;
 
-display: flex;
-justify-content: space-between;
-
-border-bottom: 1px grey solid;
+}
+.navigation{
+    width: 946px;
+    height: 55px;
+    margin: 22px auto 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: 1px grey solid;
+    padding: 0;
+}
+.information-color-Home{
+ color: gray;
+}
+.information-color{
+    color: gray;
+}
+.information-color-Home:first-child{
+    color: black;
 }
 .information{
- text-decoration: none;
- color: grey;
- 
- font-size: 18px;
+ display: inline;
+ line-height: 22px;
+ text-align: center;
+ list-style-type: none;
 }
 .neame{
-    width:124px ;
-    height: 117px;
-    
+    width:124px ; 
 }
 .denis{
 width: 946px;
@@ -40,12 +51,29 @@ width: 68px;
 height: 17px;
 
 transform: rotate(-90deg);
-
+display: flex;
 }
 .language{
+    display: inline;
+    line-height: 22px;
+    
+    list-style-type: none;  
+}
+.language-color{
+    color: grey;
     font-size: 15px;
-  text-decoration: none;
-  color: grey;
+    text-decoration: none;
+}
+.language-color-black{
+   color: black; 
+   font-size: 15px; 
+}
+.language-color-eng{
+    color: grey;
+    font-size: 15px;
+}
+.language-color-eng:first-child{
+    color: black;
 }
 .picture{
 width: 944px;
@@ -353,7 +381,7 @@ justify-content: center;
      .footer{
          margin-top: 50px;
      }
-     .nav{
+     .navigation{
          width: 100%;
      }
      .card{
@@ -361,5 +389,7 @@ justify-content: center;
      }
      
 }
+
+
 
 
