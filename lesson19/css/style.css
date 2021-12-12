@@ -1,11 +1,17 @@
 body{
     margin: 0;
 }
+ *, *:before, *:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 a{
     text-decoration: none;
 
 }
-.navigation{
+.header-list{
     width: 946px;
     height: 55px;
     margin: 22px auto 0;
@@ -15,23 +21,28 @@ a{
     border-bottom: 1px grey solid;
     padding: 0;
 }
+.header-burger{
+    display: none;
+}
+.header-list li{
+    display: inline;
+    line-height: 22px;
+    text-align: center;
+    list-style-type: none;
+}
 .information-color-Home{
- color: gray;
+ font-family: 'Alef', sans-serif;
 }
 .information-color{
     color: gray;
+    font-family: 'Alef', sans-serif;
 }
 .information-color-Home:first-child{
     color: black;
 }
-.information{
- display: inline;
- line-height: 22px;
- text-align: center;
- list-style-type: none;
-}
 .neame{
     width:124px ; 
+    font-family: 'Alef', sans-serif;
 }
 .denis{
 width: 946px;
@@ -45,6 +56,8 @@ align-items: center;
 .inform-denis{
     width:155px ;
     height: 44px; 
+    color: gray;
+    font-family: 'Alef', sans-serif;
 }
 .languages{
 width: 68px;
@@ -61,18 +74,18 @@ display: flex;
 }
 .language-color{
     color: grey;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
 }
-.language-color-black{
+.black{
    color: black; 
-   font-size: 15px; 
+   font-size: 16px; 
 }
-.language-color-eng{
+.language-color .eng{
     color: grey;
-    font-size: 15px;
+    font-size: 16px;
 }
-.language-color-eng:first-child{
+.eng:first-child{
     color: black;
 }
 .picture{
@@ -80,8 +93,6 @@ width: 944px;
 height: 385px;
 margin: 30px auto 0; 
 background-image: url(./../img/header/BSPP2266.png);
-/* background-size: cover;
-background-position: center; */
 }
 .center{
     margin: 104px 0 0;  
@@ -118,10 +129,16 @@ justify-content: center;
     margin-bottom: 0;
 }
 .paragraph{
-    margin-top: 50px;
+    width: 100%;
     display: flex; 
     flex-direction: column;
     align-items: center;
+}
+.paragraph-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 .teaxt{
     font-size: 18px;
@@ -274,9 +291,11 @@ justify-content: center;
 .footer-title{
     font-size: 34px;
     margin: 5px 0 20px;
+    font-family: 'Alef', sans-serif;
 }
 .button{
     font-size: 18px;
+    font-family: 'Alef', sans-serif;
     text-decoration: none;
     color: white;
     background-color: black;
@@ -300,28 +319,6 @@ justify-content: center;
 .vector{
     position: absolute;
 }
-.N{
-    position: relative;
-    bottom: -14px ;
-}
-.I{
-    position: relative;
-    bottom: -14px ;
-}
-.O{
-    position: relative;
-    right: -9px; 
-}
-.B{
-    position: relative;
-    bottom: -12px ;
-    right: -8px;
-}
-.E{
-    position: relative;
-    bottom: -12px ;
-    right:  10px;
-} 
 .line{
     position: relative;
     right:  -6px;
@@ -341,13 +338,22 @@ justify-content: center;
 .footer-teaxt-bottom{
     margin: 2px 0 0;
 }
-@media (max-width: 950px){
+@media (max-width: 768px){
+    body.lock{
+        overflow: hidden;
+    }
+    .button{
+        padding: 10px 48px;
+    }
     .denis{
         width: 320px;
         height: 174px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+     }
+     .links{
+         width: 314px;
      }
      .picture{
          width: 316px;
@@ -379,16 +385,83 @@ justify-content: center;
        flex-direction: column;
      }
      .footer{
-         margin-top: 50px;
+        margin-top: 50px;
      }
-     .navigation{
-         width: 100%;
+     .header-list{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        border-bottom: 0;
+        position: relative;
+        left: 10%;
+        top: 60px;
+     }
+     .header-list li{
+        font-size: 34px;
+        padding-bottom: 68px ;
+     }
+     .header-burger{
+        display: block;
+        position: relative;
+        background-image: url(./../img/header/menu/Group\ 29.svg);
+        left: 80%;
+        top: 76px;
+        width: 30px;
+        height: 20px; 
+        z-index: 6; 
+     }
+     .header-burger.active{
+         background-image: url(./../img/header/menu/Group.svg);
+         background-size: cover;
+         background-position: center;
+     }
+     .header-menu{
+        z-index: 5;
+        position: fixed;
+        top: -300%;
+        left: 0;
+        width: 100%;
+        height: 821px;
+        transition: all 0.3s ease 0s;
+        background-color: white;
+     }
+     .header-menu.active{
+         top: 0;
      }
      .card{
-         margin-top: 82px;
+        margin-top: 82px;
      }
-     
+     .footer-like{
+         width: 315px;
+         height: 64px;
+         font-size: 18px;
+     }
+     .languages{
+         display: none;
+       position: absolute;
+     }
+    .languages.active{
+        display: block;
+        position: relative;
+        left: 90px;
+        bottom: -480px;
+        transform: rotate(90deg);
+        z-index: 5;
+        width: 375px;
+        height: 812px
+    }
+    .language-color{
+        font-size: 34px;
+    }
+    .blok-teaxt{
+        width: 316px;
+        font-size: 18px;
+    }
 }
+
+  
+  
 
 
 
