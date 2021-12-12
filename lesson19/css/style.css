@@ -65,6 +65,7 @@ height: 17px;
 
 transform: rotate(-90deg);
 display: flex;
+
 }
 .language{
     display: inline;
@@ -449,7 +450,7 @@ justify-content: center;
         transform: rotate(90deg);
         z-index: 5;
         width: 375px;
-        height: 812px
+        height: 812px;
     }
     .language-color{
         font-size: 34px;
