@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $('.slider').slick({
+        arrows:false,
+        dots:true,
+        adaptiveHeight:true
+    });
+    $('.hotel-slider').slick({
+        slidesToShow:3,
+        arrows:true,
+    });
+    $('.tours-sleder').slick({
+        slidesToShow:3,
+        arrows:true,
+    });
+});
