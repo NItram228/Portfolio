@@ -504,3 +504,61 @@ line-height: 18px;
     height: 140px;
     background: #F8F8F8;
 }
+.form-icons{
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-icons p{
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(34, 34, 34, 0.4);
+}
+.form-field{
+    width: 825px;
+    height: 50px;
+    margin: 0 22px 0 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+}
+.Find{
+    padding: 15px 40px;
+    background: #DD4053;
+    border-radius: 2px;
+    color: #FFFFFF;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+.row{
+    display: flex;
+}
+/* form-icons */
+.where{
+    padding-left: 5px;
+    padding-right: 30px;
+}
+.where-2{
+    padding-left: 7px;
+    padding-right: 96px;
+}
+.arrival-date{
+    padding-left: 8px;
+    padding-right:111px;
+}
+.tourists{
+    padding-left: 8px;
+    padding-right:53px;
+}
+.nights{
+    padding-left: 8px;
+    padding-right:226px;
+}
