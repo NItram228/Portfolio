@@ -1,3 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 body{
     margin: 0;
 }
@@ -162,9 +180,10 @@ border-bottom: 1px #cdcdcd solid;
     color: #616161;
 }
 /* slider */
-/* .slider{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%);
-} */
+.slider .slider-item{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%),url(./img/slider/slider-1.png) ;
+    
+} 
 .slider{
     width: 1440px;
     height: 475px;
@@ -561,4 +580,31 @@ line-height: 18px;
 .nights{
     padding-left: 8px;
     padding-right:226px;
+}
+/* form-field */
+.cite{
+    width: 103px;
+    height: 50px;
+    padding: 0;
+    border-right:1px  solid rgba(46, 46, 46, 0.2);
+    border-top:0px;
+    border-bottom:1px solid rgba(46, 46, 46, 0.2);
+    border-left:0px; 
+}
+.choose-country{
+    width: 213px;
+    height: 50px;
+    padding: 0;
+    border-right:1px  solid rgba(46, 46, 46, 0.2);
+    border-top:0px;
+    border-left:0px;
+    border-bottom:1px solid rgba(46, 46, 46, 0.2);
+}
+.choose-country option{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(34, 34, 34, 0.4);
 }
