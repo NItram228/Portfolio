@@ -25,8 +25,9 @@ a{
     text-decoration: none;
 }
 .header{
-width: 100%;
+width: 1280px;
 height: 100px;
+margin: 0 auto;
 display: flex;
 align-items: center;
 border-bottom: 1px #cdcdcd solid;
@@ -77,8 +78,8 @@ border-bottom: 1px #cdcdcd solid;
 .logo{
     width: 131px;
     height: 72px;
-    margin-left: 100px;
-    margin-right: 27px ;
+    
+    margin-right: 20px ;
     background-image: url(./../img/header/logo/logo.png);
     
 }
@@ -398,6 +399,7 @@ line-height: 55px;
     justify-content: center;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(./../img/best-hotels/slider/slider-1.png) ; 
 }
 .hotel-slider-slider-2{
@@ -695,3 +697,93 @@ color: rgba(34, 34, 34, 0.4);
     border-right:1px  solid rgba(46, 46, 46, 0.2);
     border-bottom:1px solid rgba(46, 46, 46, 0.2);
 }
+/* important-news */
+.important-news{
+    width: 1440px;
+    height: 620px;
+    background: #F8F8F8;
+    margin: 91px auto 0;
+    display: flex;
+    /* justify-content: center; */
+}
+/* important-news-teaxt */
+.important-news-teaxt{
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 180px;
+}
+.important-news-teaxt h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    color: #232323;
+    margin-right: 62px;
+}
+.important-news-teaxt a{
+    margin-left: 26px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #969696;
+    padding: 14px 22px;
+    border: 1px #969696 solid;
+}
+/* important-news-slider */
+.important-news-slider{
+    width: 1041px;
+    position: absolute;
+    margin-top: 221px;
+    margin-left: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.line-important-news{
+    width: 1px;
+    height: 330px;
+    background: #EEEEEE;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+display: flex;
+margin-top: 18px;
+}
+.date h4{
+    margin-left: 9px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #BBBBBB;
+}
+.card-teaxt{
+    margin-top: 19px;
+}
+.card-teaxt h2{
+    width: 195px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; 
+}
+.card-teaxt a{
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #232323;
+    border-bottom: 1px #2C2C2C solid;
+}
+
+
