@@ -1,3 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
 }
@@ -17,6 +37,7 @@ border-bottom: 1px #cdcdcd solid;
     flex-direction: column;
     align-items: center;
     border-left: 1px #cdcdcd solid;
+    border-right: 1px #cdcdcd solid ;
     padding-left: 26px;
     padding-right: 30px;
 }
@@ -37,10 +58,10 @@ border-bottom: 1px #cdcdcd solid;
  height: 40px;
  display: flex;
  align-items: center;
- flex-direction: row;
- padding-left: 25px;
- padding-right: 25px;
  border-right: 1px #cdcdcd solid;
+ border-left: 1px #cdcdcd solid;
+ justify-content: space-between;
+ width: 100px;
 }
 .social-list li{
     display: inline;
@@ -120,8 +141,6 @@ border-bottom: 1px #cdcdcd solid;
 }
 .blok-2{
     padding: 0 25px;
-    border-left: 1px #cdcdcd solid;
-    border-right: 1px #cdcdcd solid;
 }
 .blok-2 p{
  margin: 4px 0;
@@ -168,6 +187,9 @@ border-bottom: 1px #cdcdcd solid;
     margin: 0 auto; */
     position: relative;
 }
+.slider .slider-item{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%),url(./img/slider/slider-1.png) ; 
+} 
 .slider{
     width: 1440px;
     height: 475px;
@@ -527,7 +549,9 @@ line-height: 18px;
 /* registration-form */
 .registration-form{
     width: 1042px;
+    height: 140px;
     margin: 60px auto;
+    position: relative;
 }
 .blac-line{
     width: 1042px;
@@ -536,8 +560,10 @@ line-height: 18px;
 }
 .form{
     width: 1042px;
-    height: 140px;
+    height: 130px;
     background: #F8F8F8;
+    position: absolute;
+    top: 6px;
 }
 .form-icons{
     margin-left: 30px;
@@ -596,4 +622,74 @@ line-height: 18px;
 .nights{
     padding-left: 8px;
     padding-right:226px;
+}
+/* form-field */
+.cite{
+    width: 103px;
+    height: 50px;
+    padding: 0;
+    border-right:1px  solid rgba(46, 46, 46, 0.2);
+    border-top:0px;
+    border-bottom:1px solid rgba(46, 46, 46, 0.2);
+    border-left:0px; 
+}
+.choose-country{
+    width: 213px;
+    height: 50px;
+    padding: 0;
+    border-right:1px  solid rgba(46, 46, 46, 0.2);
+    border-top:0px;
+    border-left:0px;
+    border-bottom:1px solid rgba(46, 46, 46, 0.2);
+}
+.choose-country option{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(34, 34, 34, 0.4);
+}
+.ot{
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-bottom:1px solid rgba(46, 46, 46, 0.2);
+}
+.do{
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    border-top:0px;
+    border-left:0px;
+    border-right:1px  solid rgba(46, 46, 46, 0.2);
+    border-bottom:1px solid rgba(46, 46, 46, 0.2);
+}
+.adults{
+    width: 136px;
+    height: 50px;
+    padding: 0;
+    border-top:0px;
+    border-left:0px;
+    border-right:1px  solid rgba(46, 46, 46, 0.2);
+    border-bottom:1px solid rgba(46, 46, 46, 0.2);
+}
+.nights-ot{
+    width: 73px;
+    height: 50px;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-bottom:1px solid rgba(46, 46, 46, 0.2);
+}
+.nights-do{
+    width: 74px;
+    height: 50px;
+    border-top:0px;
+    border-left:0px;
+    border-right:1px  solid rgba(46, 46, 46, 0.2);
+    border-bottom:1px solid rgba(46, 46, 46, 0.2);
 }
