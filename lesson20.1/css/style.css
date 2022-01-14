@@ -20,9 +20,15 @@ ul {
 
 body{
     margin: 0;
+    
 }
 a{
     text-decoration: none;
+}
+.heder-line{
+    width: 100%;
+    height: 1px;
+    background-color: #D0D0D0;
 }
 .header{
 width: 1280px;
@@ -30,7 +36,6 @@ height: 100px;
 margin: 0 auto;
 display: flex;
 align-items: center;
-border-bottom: 1px #cdcdcd solid;
 }
 .header-list{
     height: 40px;
@@ -179,6 +184,11 @@ border-bottom: 1px #cdcdcd solid;
 .sub-header-list li a{
     color: #616161;
 }
+.hotel{
+    color: #616161;
+    padding-bottom: 20px;
+    border-bottom: 4px #DD4053 solid;
+}
 /* slider */
 .conteiner{
     position: relative;
@@ -187,6 +197,7 @@ border-bottom: 1px #cdcdcd solid;
     width: 1440px;
     height: 475px;
     margin: 0 auto;
+    position: relative;
 }
 .slider .slider-item{
     width:1440px;
@@ -246,13 +257,13 @@ border-bottom: 1px #cdcdcd solid;
 }
 /* Текст слайдера */
 .conteiner-teaxt{
-    position: absolute;
+    position:relative;
     top: 110px;
     left: 222px;
-    z-index: 3;
+    z-index: 6;
 }
 .conteiner-teaxt div p{
-    width: 190px;
+    width: 249px;
     color: white;
     padding: 6px 22px 7px;
     border: 1px white solid;
@@ -261,12 +272,14 @@ border-bottom: 1px #cdcdcd solid;
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
+    margin-bottom: 16px;
 }
 .conteiner-teaxt div h1{
     color: white;
     width: 725px;
     font-size: 45px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
 }
 .conteiner-teaxt div a{
     width: 99px;
@@ -785,5 +798,8 @@ margin-top: 18px;
     color: #232323;
     border-bottom: 1px #2C2C2C solid;
 }
-
+.card-teaxt a:active{
+    color: #DD4053;
+    border-bottom: 1px #DD4053 solid;
+}
 
