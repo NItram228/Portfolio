@@ -49,3 +49,5 @@ let sumTwo = pricePerDroid * orderedQuantily + deliveryFee;
 let price =  `цена: ${pricePerDroid}, количество: ${orderedQuantily}, стоимость доставки: ${deliveryFee}, общая стоимость: ${sumTwo}`;
 
 console.log(price);
+
+
