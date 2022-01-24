@@ -1,4 +1,4 @@
-/*
+
 const firstName = prompt('write your name ', '');
 const lastName = prompt('write your last name', '');
 const currentYear = prompt('write your current year ', '');
@@ -22,9 +22,9 @@ else{
 
 let number = 38 % 5;
 console.log(number);
-*/
 
-/*
+
+
  const heading = document.getElementById('title')
 
  console.dir(heading);
@@ -35,7 +35,7 @@ console.log(number);
      heading.style.textAlign = 'center'
     heading.style.backgroundColor = 'green'
  }, 2000)
-*/
+
 
 
 
