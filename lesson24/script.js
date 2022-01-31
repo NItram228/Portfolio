@@ -49,7 +49,34 @@ else if (moneySpent < 5000) {
     console.log(moneySpent)
 }
 
+//5
+let junior = ' junior'
+let middle = ' middel'
+let senior = ' senior'
+const salary = prompt('how much do you earn?')
 
+if(salary < 1200){
+    console.log('you ' + junior)
+}
+else if(salary >=1200 && salary < 4000){
+    console.log('you ' + middle)
+}
+else if(salary >= 4000){
+    console.log('you ' + senior)
+}
 
+//6
+const password = prompt('write your password')
 
+let ADMIN_PASSWORD = ('js')
+
+if(password == ADMIN_PASSWORD){
+    console.log('Welcome!')
+}
+else if(password == 0){
+    console.log('Canceled by user!')
+}
+else{
+    console.log('Access deniad, wrong password')
+}
 
