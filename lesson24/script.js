@@ -80,3 +80,38 @@ else{
     console.log('Access deniad, wrong password')
 }
 
+//7
+
+let str = 'I love js'
+
+console.log(str.length)
+
+
+//8
+
+let password_2 = 'df%hdjsf'
+if (password_2.length >=7 && !password_2.includes('%', ';', '№', '?')){
+    console.log('password reliable' )
+}
+else{
+    console.log('password not reliable' )
+}
+
+//9
+
+let str_2 = 'Amazing SalE, only tonight!,  JavaScript weekly newsletter'
+let srtLower = str_2.toLocaleLowerCase()
+
+if (srtLower.includes('spam', 'sale')){
+    console.log(':(')
+}
+else{
+    console.log(':)')
+}
+
+//10  Message
+
+let taext = 'message' 
+let taext_2 = taext.toUpperCase().slice(0,1)
+
+console.log(taext_2)
