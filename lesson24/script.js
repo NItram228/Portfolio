@@ -70,10 +70,10 @@ const password = prompt('write your password')
 
 let ADMIN_PASSWORD = ('js')
 
-if(password == ADMIN_PASSWORD){
+if(password === ADMIN_PASSWORD){
     console.log('Welcome!')
 }
-else if(password == 0){
+else if(password === null){
     console.log('Canceled by user!')
 }
 else{
