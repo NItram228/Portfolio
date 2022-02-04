@@ -123,13 +123,6 @@ console.log(taext_2)
 let country = ['China ', 'Chile ', 'Australia ', 'Jamaica ']
 let price = ['100', '250', '170' , '120']
 // let country_name = 'Jamaica'
-China
-Chile 
-Australia 
-Jamaica 
-
-
-
 
 function countryFunction(){
     const country_name = prompt ('write your country') 
@@ -156,10 +149,8 @@ function countryFunction(){
 
 
 //12
-
-const age = function(){
-
-    const youAge = prompt('write your age')
+const youAge = prompt('write your age')
+const age = function(youAge){
 
     if ( youAge >= 18){
         console.log('You are an aduit')
@@ -167,17 +158,14 @@ const age = function(){
     else{
         console.log('You are a minor')
     }
-    return
+    return youAge;
 }
-age();
+console.log('Result:', age(youAge));
 
 //13
 
-
-const passwordFunction = function(){
-
-    const password = prompt('write your password')
-
+const password = prompt('write your password')
+const passwordFunction = function(password){
     let ADMIN_PASSWORD = ('jqueryismyjam')
     
     if(password === ADMIN_PASSWORD){
@@ -186,17 +174,14 @@ const passwordFunction = function(){
     else{
         console.log('Access deniad, wrong password')
     }
-    return
+    return password;
 }
 
-passwordFunction();
+console.log(passwordFunction(password));
 
 //14
-let available = 100
-function checkStorage(){
-
-    const ordered = prompt('количество товара в заказе')
-
+const ordered = prompt ('dsfdsfsdfss')
+function checkStorage(ordered, available){
     if(ordered < available){
         console.log('The order is accepted, our manager will contact you')
     }
@@ -206,4 +191,13 @@ function checkStorage(){
     return
 } 
 
-checkStorage()
+console.log('Result:', checkStorage(ordered,100 ))
+
+
+//2
+
+const dfd = function(a, b){
+    return a+b
+}
+
+console.log('Result: ', dfd(41, 90));
