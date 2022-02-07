@@ -11,3 +11,21 @@ const makeTransaction =  function(pricePerDroid, orderedQuantity, customerCredit
 }
 
 console.log(makeTransaction(500,10, 50));
+
+
+//
+
+const numder = function(start, end){
+    if(start < end){
+        for (let i = 0; i < end; i++) {
+            start += i;
+        }
+        console.log(start);
+    }
+    else{
+        return':(';
+    }
+    
+}
+
+console.log(numder(0,100));
