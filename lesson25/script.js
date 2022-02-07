@@ -14,18 +14,22 @@ console.log(makeTransaction(500,10, 50));
 
 
 //
+let total = 0
 
 const numder = function(start, end){
     if(start < end){
-        for (let i = 0; i < end; i++) {
-            start += i;
+        for (let i = start; i < end; i++) {
+            total += i;
         }
         console.log(start);
     }
     else{
-        return':(';
+        for (let i = end; i < start; i++) {
+            total += i;
+        }
+        console.log(end);
     }
     
 }
 
-console.log(numder(0,100));
+console.log(numder(100,50));
