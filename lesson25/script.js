@@ -37,7 +37,7 @@ const numder = function(start, end){
 console.log(numder(0,10));
 
 */
-
+/*
 //
 total = 0 
 const array = [4, 7, 9, 15, 6, 6, 7, 8, 9, 20];
@@ -48,7 +48,7 @@ for(i = 0; i < 20; i+= 1){
         console.log(array[i])
     }
 }
-*/
+
 for(el of array){
     if(el % 2 === 0 ){
         total += el;
@@ -56,3 +56,27 @@ for(el of array){
 }
 console.log("result", total)
 
+*/
+
+//
+const arr_1 = [2, 4, 5, 6, 4, 2];
+const arr_2 = [3, 1, 6, 7, 0, 8];
+const arr_3 = [...arr_1, ...arr_2];
+console.log(arr_3);
+function newArray(arr_1, arr_2, maxLength){
+    const array = [...arr_1,...arr_2];
+    if(array.length <= maxLength){
+        return array;
+    }
+    return array.slice(0, maxLength);
+}
+
+console.log(newArray(arr_1, arr_2, 10))
+
+//
+
+function slugify(str) {
+    return str.toLowerCase().split(" ").join("-");
+}
+
+console.log(slugify("I like js"));
