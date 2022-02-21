@@ -17,11 +17,11 @@ list.append(...links);*/
 const array = [3, 5, 7, 11, 33, 2, 6];
 
 function getSum(array, callblack){
-    let total = 0
+    let total = 1
     for (let el of array){
     
         if(callblack(el)){
-            total +=el;
+            total *=el;
         } 
     }
 
