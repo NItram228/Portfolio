@@ -1,4 +1,4 @@
-/*const colors = ['red', 'pink', 'violet', 'green', 'tomato', 'teal'];
+const colors = ['red', 'pink', 'violet', 'green', 'tomato', 'teal'];
 const list = document.querySelector('.link');
 console.log(list)
 console.log(colors);
@@ -13,7 +13,8 @@ for (let el of colors) {
 }
 console.log(links);
 
-list.append(...links);*/
+list.append(...links);
+
 const array = [3, 5, 7, 11, 33, 2, 6];
 
 function getSum(array, callblack){
