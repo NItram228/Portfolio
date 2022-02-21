@@ -19,6 +19,16 @@ list.append(...links);
 const pluseBtn = document.querySelector('.plus')
 const minusBtn = document.querySelector('.minus')  
 const dadBtn = document.querySelector('.dad')
+let ter = 0;
+dadBtn.textContent = ter
 
 
-  
+pluseBtn.addEventListener('click', () => {
+  ter +=1
+  dadBtn.textContent = ter
+})
+
+minusBtn.addEventListener('click', ()=> {
+  ter -=1
+  dadBtn.textContent = ter
+})
